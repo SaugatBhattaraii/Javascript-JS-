@@ -42,3 +42,27 @@ type of bignumber = bigint
 
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// concept of heap and stack memory
+// stack memory example (stack memory is called all primitive datatype in which it gives only copy but no reference)
+let myyoutubename = "saugatbhattaraidotcom"
+
+let anothername = myyoutubename
+anothername = "chaiaurcode"
+
+console.log(anothername)
+console.log(myyoutubename)
+// heap memory example below
+// heap memory are called all non-primitive datatype in which it gives references 
+let userone = {
+    email:"saugatbhattarai@gmail.com", //comma is necessary while writing other objects
+    upi: "something@com"
+}
+
+let usertwo= userone
+usertwo.email = "saugat@yahoo.com" // object is accessed by using . sign 
+
+console.log(userone.email)
+console.log(usertwo.email)
