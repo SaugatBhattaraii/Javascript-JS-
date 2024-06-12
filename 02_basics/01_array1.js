@@ -23,7 +23,7 @@ console.log(myarr);
 console.log(newarray);
 console.log(typeof newarray); 
 
-// +++++++++++++++ Slice and splice ++++++++++++++
+// +++++++++++++++ Slice and splice ++++++++++++++ !!!Important topic + interview
 console.log("A", myarr);
 const myn1 = myarr.slice(1,3); 
 console.log(myn1);
